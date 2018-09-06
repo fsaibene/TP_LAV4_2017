@@ -85,7 +85,8 @@ export class AdivinaElNumeroComponent implements OnInit {
      }, 3000);
     console.info("objeto",x);
   
-   }  
+  }
+    
   ngOnInit() {
   }
 

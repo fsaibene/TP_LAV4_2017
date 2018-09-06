@@ -10,7 +10,6 @@ export class MenuCardComponent implements OnInit {
   constructor(private route: ActivatedRoute,
     private router: Router) { }
 
-
   ngOnInit() {
   }
   Juego(tipo: string) {
@@ -27,6 +26,9 @@ export class MenuCardComponent implements OnInit {
       case 'AgilidadaMasListado':
           this.router.navigate(['/Juegos/AgilidadaMasListado']);
         break;
+      case 'Sudoku':
+        this.router.navigate(['/Juegos/Sudoku']);
+      break;
     }
   }
 }
