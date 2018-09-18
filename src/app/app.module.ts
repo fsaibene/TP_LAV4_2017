@@ -50,7 +50,6 @@ import { QuienSoyComponent } from './componentes/quien-soy/quien-soy.component';
 import { AnagramaComponent } from './componentes/anagrama/anagrama.component';
 import { ListadoDePaisesComponent } from './componentes/listado-de-paises/listado-de-paises.component';
 import { MapaDeGoogleComponent } from './componentes/mapa-de-google/mapa-de-google.component'
-import { AgmCoreModule } from '@agm/core';
 import { InputJugadoresComponent } from './componentes/input-jugadores/input-jugadores.component';
 import { SexoPipe } from './pipes/sexo.pipe';
 import { SudokuComponent } from './componentes/sudoku/sudoku.component';
@@ -88,9 +87,9 @@ import { SudokuModule } from './componentes/sudoku/sudoku.module';
     FormsModule,
     RuteandoModule,
     HttpModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyB6f8x4IjRlesQ3oETc6BXYQHVRTOlY3Ys'
-    }),
+    //AgmCoreModule.forRoot({
+    //  apiKey: 'AIzaSyB6f8x4IjRlesQ3oETc6BXYQHVRTOlY3Ys'
+    //}),
     SudokuModule
     // NgbModule.forRoot(MiRuteo),
     // importo el ruteo
